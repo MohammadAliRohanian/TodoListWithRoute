@@ -1,0 +1,62 @@
+.main{
+    width: 60%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 10em;
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+#col1{
+    width: 300px;
+    height: 200px;
+    background-color: lightgoldenrodyellow;
+    border-radius:20px;
+    padding-left: 25px;
+    font-size: 25px;
+    margin-left: 50%;
+}
+#col2{
+    width: 400px;
+    height: auto;
+    background-color: lightgreen;
+    border-radius:20px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 30%;
+
+}
+.textbox{
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Ink Free;
+    width: 60%;
+    height: 20px;
+    font-size: 15px;
+}
+.btn{
+    font-family: Ink Free;
+    border: none;
+    margin-top: 20px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    font-size: 20px;
+    cursor: pointer;
+}
+.taskItem{
+    background-color: rgb(192, 233, 192);
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    padding-top: 10px;
+    margin-left: 100px;
+}

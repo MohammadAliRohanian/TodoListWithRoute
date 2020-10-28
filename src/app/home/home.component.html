@@ -1,0 +1,15 @@
+<div class="main">
+    <div id="col1">
+        <h3>Enter Your Tasks:</h3>
+        <form>
+            <input type="text" placeholder="Write Your Tasks" name="itemName" class="textbox" [(ngModel)]="projectText" >   <br>
+            <input type="submit" value="Enter" class="btn" (click)="addItem()" >
+        </form>
+    </div>
+    <div id="col2">
+        <h3>ToDo Lists: {{itemCount}}</h3>
+        <div *ngFor="let item of project; let i=index" (click)="removeItem(i)">
+            <p class="taskItem">{{item}}</p>
+        </div>
+    </div>
+</div>
